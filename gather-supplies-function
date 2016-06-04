@@ -1,0 +1,6 @@
+gather_supplies ( $location_to_gather_supplies_from, $supplies_to_get) {
+open $location_to_gather_supplies_from
+get $supplies_to_get
+place $supplies_to_get on counter
+close $location_to_gather_supplies_from
+}
